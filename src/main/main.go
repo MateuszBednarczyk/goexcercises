@@ -8,4 +8,6 @@ func main() {
 	first.ExFirstOfFirst()
 	first.ExSecondOfFirst()
 	first.Fetch()
+	first.ExampleSwtich("red")
+	first.ExampleSwtich("black")
 }

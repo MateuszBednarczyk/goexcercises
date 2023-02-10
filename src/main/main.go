@@ -11,8 +11,9 @@ func main() {
 	first.ExFirstOfFirst()
 	first.ExSecondOfFirst()
 	first.Fetch()
-	first.ExampleSwtich("red")
-	first.ExampleSwtich("black")
 	fmt.Println(first.GetGrade(30, 30, 30))
 	second.Convert()
+	first.ExampleSwtich("red")
+	first.ExampleSwtich("black")
+	first.ExampleSwtich("red")
 }

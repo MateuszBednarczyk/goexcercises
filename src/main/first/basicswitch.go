@@ -7,6 +7,6 @@ func ExampleSwtich(colour string) {
 	case "red":
 		fmt.Println("Given colour is red")
 	default:
-		fmt.Println("Unknown colour")
+		panic("Unknown color")
 	}
 }
